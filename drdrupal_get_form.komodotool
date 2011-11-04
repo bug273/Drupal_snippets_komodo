@@ -1,0 +1,11 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "false", 
+  "name": "drdrupal_get_form", 
+  "type": "snippet", 
+  "value": [
+    "drupal_get_form('${1:/* Form ID */}', $${2:argument});", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "false"
+}

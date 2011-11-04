@@ -1,0 +1,12 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drdb_fetch_array", 
+  "type": "snippet", 
+  "value": [
+    "while ($${1:row} = db_fetch_array($result)) {", 
+    "\t${2:// Your code here}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

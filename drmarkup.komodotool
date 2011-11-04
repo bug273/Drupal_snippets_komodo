@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drmarkup", 
+  "type": "snippet", 
+  "value": [
+    "$form['${1:/* form element */}'] = array(", 
+    "\t'#value' => '${2:/* markup */}',", 
+    ");", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

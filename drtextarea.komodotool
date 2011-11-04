@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drtextarea", 
+  "type": "snippet", 
+  "value": [
+    "$form['${1:/* form element */}'] = array(", 
+    "\t'#type' => 'textarea', ", 
+    "\t'#title' => t('${2:/* title */}'), ", 
+    "\t'#rows' => ${3:/* default:5 */},", 
+    ");!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_help", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_help", 
+    " */", 
+    "function `Filename()`_help($path, $arg) {", 
+    "\tswitch ($path) {", 
+    "\t\tcase '${1:/* path */}':", 
+    "\t\t\t// Enter your help text below", 
+    "\t\t\treturn t('${2:/* text */}');", 
+    "\t}", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

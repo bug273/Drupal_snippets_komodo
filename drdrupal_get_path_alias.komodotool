@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drdrupal_get_path_alias", 
+  "type": "snippet", 
+  "value": [
+    "drupal_get_path_alias('node/${1:nid}', ${2:language (optional)});!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

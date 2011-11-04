@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_views_query_alter", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_views_query_alter()", 
+    " */", 
+    "function `Filename()`_views_query_alter(&$view, &$query) {", 
+    "\t${2:// Your code here.}", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

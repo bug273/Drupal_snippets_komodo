@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "false", 
+  "name": "drdb_fetch_array", 
+  "type": "snippet", 
+  "value": [
+    "while ($${1:row} = db_fetch_array($result)) {", 
+    "\t${2:// Your code here}", 
+    "}radhe@Mayapur:~/.vim/plugin/snipMate/drupal$ cat db_fetch_object.snippet ", 
+    "while ($${1:row} = db_fetch_object($result)) {", 
+    "\t${2:// Your code here}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "false"
+}

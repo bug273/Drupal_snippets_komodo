@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drwatchdog", 
+  "type": "snippet", 
+  "value": [
+    "watchdog('${1:/* type */}', '${2:/* message */}'${3});!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

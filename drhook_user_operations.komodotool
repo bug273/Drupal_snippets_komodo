@@ -1,0 +1,30 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_user_operations", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_user_operations()", 
+    " */", 
+    "", 
+    "function `Filename()`_user_operations() {", 
+    "\t$operations = array(", 
+    "\t\t'${1:/* operation */}' => array(", 
+    "\t\t\t'label' => t('${2:/* label */}'),", 
+    "\t\t\t'callback' => '${3:/* callback */}',", 
+    "\t\t),", 
+    "\t);", 
+    "\treturn $operations;", 
+    "}", 
+    "", 
+    "/**", 
+    " * Callback function", 
+    " */", 
+    "function $3 {", 
+    "\t${4:// Your code here.}", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

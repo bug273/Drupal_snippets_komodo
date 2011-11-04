@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_node_operations", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_node_operations()", 
+    " */", 
+    "function `Filename()`_node_operations() {", 
+    "\t$operations = array(", 
+    "\t  '${1:/* operation */}' => array(", 
+    "\t    'label' => t('${2:/* label */}'),", 
+    "\t    'callback' => '${3:/* callback */}',", 
+    "\t  ),", 
+    "\t);", 
+    "\treturn $operations;", 
+    "}", 
+    "", 
+    "/**", 
+    " * Callback function", 
+    " */", 
+    "function $3 {", 
+    "\t${4:// Your code here.}", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

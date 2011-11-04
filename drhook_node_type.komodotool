@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_node_type", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_node_type()", 
+    " */", 
+    "function `Filename()`_node_type($op, $info) {", 
+    "\tswitch ($op) {", 
+    "\t\tcase \"delete\":", 
+    "\t\t\t${1:// Your code here.}", 
+    "\t\t\tbreak;", 
+    "\t\tcase \"insert\":", 
+    "\t\t\tbreak;", 
+    "\t\tcase \"update\":", 
+    "\t\t\tbreak;", 
+    "\t}", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

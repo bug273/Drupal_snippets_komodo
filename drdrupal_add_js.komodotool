@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "false", 
+  "name": "drdrupal_add_js", 
+  "type": "snippet", 
+  "value": [
+    "drupal_add_js(${1:/* Data */}, '${2:/* Type 'core', 'module', 'theme', 'inline' and 'setting' */}', '${3:/* Scope: header or footer */}', ${4:/* Defer TRUE of FALSE */}, ${5:/* Cache TRUE or FALSE*/}, ${6: /* Preprocess TRUE or FALSE */});!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "false"
+}

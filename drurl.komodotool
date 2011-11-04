@@ -1,0 +1,11 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drurl", 
+  "type": "snippet", 
+  "value": [
+    "url('${1:path}', array('query' => '${2:query}', 'absolute' => ${3:false}))", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

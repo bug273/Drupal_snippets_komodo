@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "false", 
+  "name": "drfile", 
+  "type": "snippet", 
+  "value": [
+    "$form['${1:/* form element */}'] = array(", 
+    "\t'#type' => 'file', ", 
+    "\t'#title' => t('${2:/* title */}'), ", 
+    "\t'#description' => t('${3:/* description */}'),", 
+    ");", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "false"
+}

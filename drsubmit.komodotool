@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drsubmit", 
+  "type": "snippet", 
+  "value": [
+    "$form['${1:/* form element */}'] = array(", 
+    "\t'#type' => 'submit',", 
+    "\t'#value' => t('${2:/* value */}'),", 
+    ");!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_init", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_init().", 
+    " */", 
+    "function `Filename()`_init() {", 
+    "\t${1:/* your code here */}", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

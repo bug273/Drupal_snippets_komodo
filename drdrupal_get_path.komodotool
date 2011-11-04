@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drdrupal_get_path", 
+  "type": "snippet", 
+  "value": [
+    "drupal_get_path('${1:/* Type: module, theme or theme_engine */}', '${2:/* Name */}');!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

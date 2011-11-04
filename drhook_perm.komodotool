@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_perm", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_perm()", 
+    " */", 
+    "function `Filename()`_perm() {", 
+    "\treturn array('${1:/* permission */}');", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

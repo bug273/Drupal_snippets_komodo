@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "false", 
+  "name": "drdrupal_add_css", 
+  "type": "snippet", 
+  "value": [
+    "drupal_add_css(${1:/* path */}, '${2:/* Type (optional) 'module' or 'theme' */}', '${3:/* Media (optional) e.g. 'all', 'print', or 'screen' */}', ${4:/* preprocess TRUE of FALSE */});!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "false"
+}

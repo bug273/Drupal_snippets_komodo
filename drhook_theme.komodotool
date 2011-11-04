@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_theme", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_theme()", 
+    " */", 
+    "function `Filename()`_theme($existing, $type, $theme, $path) {", 
+    "\treturn array(", 
+    "\t\t'${1:theme_function}' => array(", 
+    "\t\t\t'arguments' => array(${2:/* Theme function arguments */}),", 
+    "\t\t\t${3:/* See for options */}", 
+    "\t\t),", 
+    "\t);", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

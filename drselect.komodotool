@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drselect", 
+  "type": "snippet", 
+  "value": [
+    "$form['${1:/* form element */}'] = array(", 
+    "\t'#type' => 'select',", 
+    "\t'#title' => t('${2:/* title */}'),", 
+    "\t'#description' => t('${3:/* description */}'),", 
+    "\t'#options' => array(", 
+    "\t\t'${4:/* key */}' => t('${5:/* value */}'),", 
+    "\t),", 
+    ");!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

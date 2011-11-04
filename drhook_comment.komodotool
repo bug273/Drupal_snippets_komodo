@@ -1,0 +1,31 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_comment", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_comment()", 
+    " */", 
+    "function `Filename()`_comment(&$a1, $op) {", 
+    "\tswitch ($op) {", 
+    "\t\tcase \"insert\":", 
+    "\t\t\t${1:// Your code here}", 
+    "\t\t\tbreak;", 
+    "\t\tcase \"update\":", 
+    "\t\t\tbreak;", 
+    "\t\tcase \"view\":", 
+    "\t\t\tbreak;", 
+    "\t\tcase \"validate\":", 
+    "\t\t\tbreak;", 
+    "\t\tcase \"publish\":", 
+    "\t\t\tbreak;", 
+    "\t\tcase \"unpublish\":", 
+    "\t\t\tbreak;", 
+    "\t\tcase \"delete\":", 
+    "\t\t\tbreak;", 
+    "\t}", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

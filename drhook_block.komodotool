@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_block", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_block()", 
+    " */", 
+    "function `Filename()`_block($op = 'list', $delta = 0, $edit = array()) {", 
+    "\tswitch ($op) {", 
+    "\t\tcase 'list':", 
+    "\t\t\t${1}", 
+    "\t\t\tbreak;", 
+    "\t\tcase 'configure':", 
+    "\t\t\tbreak;", 
+    "\t\tcase 'save':", 
+    "\t\t\tbreak;", 
+    "\t\tcase 'view':", 
+    "\t\t\tbreak;", 
+    "\t}", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

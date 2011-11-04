@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "false", 
+  "name": "drhook_menu", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_menu()", 
+    " */", 
+    "function `Filename()`_menu() {", 
+    "\t$${1:items} = array();", 
+    "\t", 
+    "\t// Put your menu items here.", 
+    "\t$$1['${2:path}'] = array(", 
+    "\t  ${3}", 
+    "\t);", 
+    "\t", 
+    "\treturn $$1;", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "false"
+}

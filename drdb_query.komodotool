@@ -1,0 +1,11 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drdb_query", 
+  "type": "snippet", 
+  "value": [
+    "$result = db_query('${1:/* Query */}', ${2:/* Arguments */});", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

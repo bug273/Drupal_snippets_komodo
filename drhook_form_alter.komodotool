@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "false", 
+  "name": "drhook_form_alter", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_form_alter()", 
+    " */", 
+    "function `Filename()`_form_alter(&$form, $form_state, $form_id) {", 
+    "\tswitch ($form_id) {", 
+    "\t\tcase '${1:/* your form */}':", 
+    "\t\t  ${2:// your code.}", 
+    "\t}", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "false"
+}

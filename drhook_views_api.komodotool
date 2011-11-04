@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_views_api", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_views_api()", 
+    " */", 
+    "function `Filename()`_views_api() {", 
+    "\treturn array(", 
+    "\t\t'api' => 2,", 
+    "\t\t'path' => drupal_get_path('module', '`Filename()`') . '/views',", 
+    "\t);", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

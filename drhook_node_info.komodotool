@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_node_info", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_node_info().", 
+    " */", 
+    "function `Filename()`_node_info() {", 
+    "\treturn array(", 
+    "\t\t'${1:/* machine-readable name */}' => array(", 
+    "\t\t\t'name' => t('${2:/* human-readable name */}'),", 
+    "\t\t\t'module' => '`Filename()`',", 
+    "\t\t\t'description' => t('${3:/* description */}'),", 
+    "\t\t),", 
+    "\t);", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

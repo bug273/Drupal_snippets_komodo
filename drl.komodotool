@@ -1,0 +1,11 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drl", 
+  "type": "snippet", 
+  "value": [
+    "l(${1:/* text */}, ${2:/* link */})", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

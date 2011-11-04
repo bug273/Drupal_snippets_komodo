@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drt", 
+  "type": "snippet", 
+  "value": [
+    "t('${1:/* Your text */}', array(${1:/* arguments */}))!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}

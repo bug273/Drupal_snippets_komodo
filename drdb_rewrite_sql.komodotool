@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drdb_rewrite_sql", 
+  "type": "snippet", 
+  "value": [
+    "$result = db_query(db_rewrite_sql('${1:/* Query */}), ${2:/* Arguments */});!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}
