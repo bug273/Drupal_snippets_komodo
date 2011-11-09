@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "drhook_form", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_form()", 
+    " */", 
+    "function module-name_form($form_state) {", 
+    "  $form[''] = array (", 
+    "    '#type' => '',", 
+    "\t\t'#title' => t(''),", 
+    "  );", 
+    "\t$form[''] = array (", 
+    "   '#type' => '',", 
+    "\t '#title' => t(''),", 
+    " );", 
+    "\treturn $form;", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "indent_relative": "true"
+}
