@@ -3,9 +3,15 @@
   "name": "drinfo", 
   "value": [
     "; \\$Id\\$", 
+<<<<<<< HEAD
     "name = \"[[%tabstop:Example Module]]\"",
 		"core = \"[[%tabstop:6.x]]\"",
 		"timestamp = \"[[" "]]\"",
+=======
+    "name = \"[[%tabstop:Example Module]]\"", 
+    "core = \"[[%tabstop:6.x]]\"",
+    "timestamp = \"[[" "]]\"",
+>>>>>>> 85e3354ed56c162da1e677d01ba51295307c50e9
     "description = \"[[%tabstop:Example module description]]\"", 
     "dependencies = [[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
