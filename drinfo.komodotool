@@ -4,6 +4,8 @@
   "value": [
     "; \\$Id\\$", 
     "name = \"[[%tabstop:Example Module]]\"", 
+    "core = \"[[%tabstop:6.x]]\"",
+    "timestamp = \"[[" "]]\"",
     "description = \"[[%tabstop:Example module description]]\"", 
     "dependencies = [[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
